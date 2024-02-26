@@ -4,12 +4,12 @@ body {
     font-family: 'Chakra Petch', sans-serif;
 }
  h1{
-    color:rgb(255, 192, 213)
+    color:#ffc0d5
  }
 :root {
     --cor-de-fundo: #1E1E1E;
     --verde: #6FFF57;
-    --branco: #FFFFFF;
-    --botao-ativo: #3A375E;
-    --botao-inativo: rgba(58, 55, 94, 0.5);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
+    --branco: #ffffff;
+    --botao-ativo: hwb(245 22% 64%);
+    --botao-inativo: #3a375e80;
+    --texto-fundo: #3a375e4d;
