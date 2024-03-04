@@ -6,5 +6,5 @@ const botoes= document.querySelectorAll(".botao");
                 botoes[j].classList.remove("ativo");}
                 botoes[i].classList.add("ativo");}
             }
-        }
+        
         
