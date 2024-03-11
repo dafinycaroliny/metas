@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-    color: hsl(340, 88%, 50%)
+    color: hsl(340, 88%, 50%);
 }
 
 :root {
@@ -20,7 +20,7 @@ h1 {
         color: #c22480;
     }
 
-    .conteudo-principal {
+.conteudo-principal {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -30,18 +30,18 @@ h1 {
         margin: 0 auto;
     }
 
-    .titulo-principal {
+.titulo-principal {
         text-align: left;
         width: 100%;
         font-size: 32px;
         color: var(--pink);
     }
 
-    .titulo-principal span {
+.titulo-principal span {
         color: var(--verde);
     }
 
-    .botao {
+.botao {
         background-color: var(--violeta);
         color: var(--cor-de-fundo2);
         display: flex;
@@ -57,26 +57,26 @@ h1 {
         border-top: none;
     }
 
-    .botoes {
+.botoes {
         display: block;
     }
 
-    .ativo {
+.ativo {
         background-color: var(--botao-ativo);
         border-bottom: 4px solid var(--verde);
     }
 
-    @media screen and (min-width: 768px) {
-        .botoes {
+@media screen and (min-width: 768px) {
+    .botoes {
             display: flex;
         }
 
-        .botao:first-child {
+    .botao:first-child {
             border-radius: 40px 40px 0 0;
         }
     }
 
-    @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
         .botoes {
             display: flex;
         }
@@ -86,6 +86,6 @@ h1 {
         }
 
         .botao:last-child {
-            border-radius: 0 40px 0 0;
+            border-radius: 0px 40px 0 0;
         }
     }
