@@ -4,7 +4,7 @@ body {
     font-family: 'Chakra Petch', sans-serif;
 }
  h1{
-    color:#ffc0d5
+    color:hsl(340, 88%, 50%)
  }
 :root {
     --cor-de-fundo: #fd99d3bd;
