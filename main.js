@@ -4,6 +4,7 @@ const texto = document.querySelectorAll(".aba-conteudo")
             botoes[i].onclick=function(){
                 for(let j=0;j<botoes.length;j++){
                 botoes[j].classList.remove("ativo");
+                texto[j].classList.remove("ativo");
             }
                 botoes[i].classList.add("ativo");
                 texto[i].classList.add("ativo");
