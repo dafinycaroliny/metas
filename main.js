@@ -10,6 +10,10 @@ const texto = document.querySelectorAll(".aba-conteudo")
                 texto[i].classList.add("ativo");
         }
      }
-        
+
+     const contadores = document.querySelectorAll(".contador");
+     const tempoObjetivo1 = new Date("2024-12-31t00:00:00");
+     contadores[0].textContent = tempoObjetivo1;
+             
      
     
