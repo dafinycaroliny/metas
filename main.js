@@ -17,8 +17,9 @@ for(let i=0; i <botoes.length;i++){
     
     //contadores[0].textContent = tempoObjetivo1 - tempoAtual;
      
-    //function calculaTempo(tempoObjetivo) 
-        let tempoAtual = new Date();
+    //function calculaTempo(tempoObjetivo) {
+        //}
+
         let tempoFinal = tempoObjetivo - tempoAtual;
         let segundos = math.floor(tempoFinal/1000);
         let minutos = Math.floor(segundos/60);
