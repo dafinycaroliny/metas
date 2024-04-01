@@ -15,11 +15,9 @@ for(let i=0; i <botoes.length;i++){
     const tempoObjetivo1 = new Date("2024-12-31t00:00:00");
     let tempoAtual = new Date();
     
-    //contadores[0].textContent = tempoObjetivo1 - tempoAtual;
+    contadores[0].textContent = tempoObjetivo1 - tempoAtual;
      
-    //function calculaTempo(tempoObjetivo) {
-        //}
-
+    function calculaTempo(tempoObjetivo) {
         let tempoFinal = tempoObjetivo - tempoAtual;
         let segundos = math.floor(tempoFinal/1000);
         let minutos = Math.floor(segundos/60);
@@ -31,3 +29,5 @@ for(let i=0; i <botoes.length;i++){
         horas %= 24;
 
     return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
+}
+       
