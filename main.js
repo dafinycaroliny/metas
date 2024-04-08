@@ -34,8 +34,8 @@ for(let i=0; i <botoes.length;i++){
     
         if (tempoFinal>0){
     return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
-}else{
-    return"Prazo Finalizado";
+} else{
+    return "Prazo Finalizado";
 }
     }
 
